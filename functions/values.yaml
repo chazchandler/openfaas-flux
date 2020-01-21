@@ -7,3 +7,6 @@ certinfo:
 
 podinfo:
   image: stefanprodan/podinfo:3.1.0
+
+myfn:
+  image: 896913591560.dkr.ecr.us-east-1.amazonaws.com/openfaas/myfn:latest-master-e69c333

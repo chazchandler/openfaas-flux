@@ -1,0 +1,9 @@
+apiVersion: openfaas.com/v1alpha2
+kind: Function
+metadata:
+  name: myfn
+  labels:
+{{ include "functions.labels" . | indent 4 }}
+spec:
+  name: myfn
+  image: {{ .Values.myfn.image }}
